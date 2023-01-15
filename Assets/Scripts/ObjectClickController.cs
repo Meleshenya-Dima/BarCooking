@@ -14,7 +14,7 @@ public class ObjectClickController : MonoBehaviour, IPointerClickHandler
     {
         if (_objectClick.tag.Equals("Buyer"))
         {
-            _objectClick.GetComponent<DialogueTrigger>().TriggerDialogue();
+            _objectClick.GetComponent<DialogueTrigger>().TriggerDialogue(_objectClick.gameObject);
         }
     }
 }

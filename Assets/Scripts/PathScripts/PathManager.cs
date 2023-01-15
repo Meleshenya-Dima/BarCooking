@@ -13,6 +13,11 @@ public class PathManager : MonoBehaviour
             Gizmos.DrawLine(pathPositions[i - 1].Position.position, pathPositions[i].Position.position);
     }
 
+    public bool GetFirstPositionOpen()
+    {
+        return pathPositions[1].IsFree;
+    }
+
     public (Transform, int, bool) CheckNextPosition(int nowIndexPosition)
     {
         if (nowIndexPosition == 9 && pathPositions[nowIndexPosition].IsFree)
@@ -20,7 +25,7 @@ public class PathManager : MonoBehaviour
             return (pathPositions[nowIndexPosition].Position, nowIndexPosition, true);
         }
 
-        else if(nowIndexPosition == 9 && !pathPositions[nowIndexPosition].IsFree)
+        if (nowIndexPosition == 9 && !pathPositions[nowIndexPosition].IsFree)
         {
             return (pathPositions[nowIndexPosition].Position, nowIndexPosition, true);
         }
@@ -37,5 +42,10 @@ public class PathManager : MonoBehaviour
         {
             return (pathPositions[nowIndexPosition].Position, nowIndexPosition, true);
         }
+    }
+
+    public void BuyerUpdatePosition(int nowIndexPosition)
+    {
+        pathPositions[nowIndexPosition].IsFree = true;
     }
 }

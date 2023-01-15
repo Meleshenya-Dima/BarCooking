@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,16 +53,20 @@
     <UnityVersion>2021.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\PathScripts\PathManager.cs" />
     <Compile Include="Assets\Scripts\BuyerController.cs" />
-    <Compile Include="Assets\Scripts\PlayerStaticInformation.cs" />
-    <Compile Include="Assets\Scripts\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerStaticInformation.cs" />
+    <Compile Include="Assets\Scripts\SpawnBuyersManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueScript\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\DialogueScript\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\PathScripts\PathPosition.cs" />
     <Compile Include="Assets\Scripts\ObjectClickController.cs" />
-    <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
-    <Compile Include="Assets\Scripts\PlayerSoundsController.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\PathPosition.cs" />
-    <Compile Include="Assets\Scripts\PathManager.cs" />
+    <Compile Include="Assets\Scripts\DialogueScript\DialogueTrigger.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerSoundsController.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

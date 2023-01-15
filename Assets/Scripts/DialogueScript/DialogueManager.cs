@@ -5,18 +5,21 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    private GameObject buyerObject;
+
     public Text PlayerName;
 
     public Text BuyerText;
 
     public Animator DialogBoxAnimator;
 
-    public void StartDialogue(Dialogue dialogue)
+
+    public void StartDialogue(Dialogue dialogue, GameObject transform)
     {
+        buyerObject = transform;
         string[] dialogueInformation = dialogue.GetDialogueInformation();
 
         DialogBoxAnimator.SetBool("IsOpen", true);
-
 
         PlayerName.text = "Hello " + dialogueInformation[0] + "!";
         StopAllCoroutines();
@@ -33,8 +36,21 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void EndDialogue()
+    public void TakeOrder()
     {
+        SendUpdateInformation();
+    }
+
+    public void DeclineOrder()
+    {
+        SendUpdateInformation();
+        Destroy(buyerObject);
+    }
+
+    public void SendUpdateInformation()
+    {
+        int buyerIndexPosition = buyerObject.GetComponent<BuyerController>().StandIndexNow;
         DialogBoxAnimator.SetBool("IsOpen", false);
+        buyerObject.GetComponent<BuyerController>().pathManager.BuyerUpdatePosition(buyerIndexPosition);
     }
 }
