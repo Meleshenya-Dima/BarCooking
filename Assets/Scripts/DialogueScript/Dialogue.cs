@@ -8,28 +8,8 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         Name = PlayerStaticInformation.PlayerName;
-        sentences = new string[50]
+        sentences = new string[30]
         {
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
-            "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
             "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
             "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
             "asdasdsaakdfSdiLhgfjasjauhsgizfyasoufhioyuhoshfuv dsiFhIDFhisuofi",
@@ -66,6 +46,6 @@ public class Dialogue : MonoBehaviour
     public string[] GetDialogueInformation()
     {
         System.Random random = new System.Random();
-        return new string[2] { Name, sentences[random.Next(0, 50)] };
+        return new string[2] { Name, sentences[random.Next(0, 30)] };
     }
 }

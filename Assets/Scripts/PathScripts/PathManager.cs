@@ -15,20 +15,15 @@ public class PathManager : MonoBehaviour
 
     public bool GetFirstPositionOpen()
     {
-        return pathPositions[1].IsFree;
+        return pathPositions[0].IsFree;
     }
 
     public (Transform, int, bool) CheckNextPosition(int nowIndexPosition)
     {
-        if (nowIndexPosition == 9 && pathPositions[nowIndexPosition].IsFree)
+        if (pathPositions.Count - 1 == nowIndexPosition)
         {
             return (pathPositions[nowIndexPosition].Position, nowIndexPosition, true);
-        }
-
-        if (nowIndexPosition == 9 && !pathPositions[nowIndexPosition].IsFree)
-        {
-            return (pathPositions[nowIndexPosition].Position, nowIndexPosition, true);
-        }
+        }   
 
         else if (pathPositions[nowIndexPosition + 1].IsFree)
         {
@@ -40,6 +35,7 @@ public class PathManager : MonoBehaviour
 
         else
         {
+            pathPositions[nowIndexPosition].IsFree = false;
             return (pathPositions[nowIndexPosition].Position, nowIndexPosition, true);
         }
     }

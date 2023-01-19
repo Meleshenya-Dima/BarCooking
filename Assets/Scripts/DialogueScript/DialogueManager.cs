@@ -9,10 +9,13 @@ public class DialogueManager : MonoBehaviour
 
     public Text PlayerName;
 
-    public Text BuyerText;
+    public Text BuyerOrderText;
 
     public Animator DialogBoxAnimator;
 
+    public OrderManager orderManager;
+
+    private string _order;
 
     public void StartDialogue(Dialogue dialogue, GameObject transform)
     {
@@ -20,25 +23,30 @@ public class DialogueManager : MonoBehaviour
         string[] dialogueInformation = dialogue.GetDialogueInformation();
 
         DialogBoxAnimator.SetBool("IsOpen", true);
-
+        _order = dialogueInformation[1];
         PlayerName.text = "Hello " + dialogueInformation[0] + "!";
         StopAllCoroutines();
-        StartCoroutine(WriteSentence(dialogueInformation[1]));
+        StartCoroutine(WriteSentence(_order));
     }
 
     IEnumerator WriteSentence(string sentence)
     {
-        BuyerText.text = "";
+        BuyerOrderText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
-            BuyerText.text += letter;
+            BuyerOrderText.text += letter;
             yield return new WaitForSeconds(.02f);
         }
     }
 
     public void TakeOrder()
     {
-        SendUpdateInformation();
+        bool isAdd = orderManager.AddOrderList(_order);
+        if (isAdd)
+        {
+            SendUpdateInformation();
+            Destroy(buyerObject);
+        }
     }
 
     public void DeclineOrder()

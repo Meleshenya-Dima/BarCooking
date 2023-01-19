@@ -18,10 +18,11 @@ public class BuyerController : MonoBehaviour
     void Update()
     {
         (Transform, int, bool) pathManagerCheckResult = pathManager.CheckNextPosition(StandIndexNow);
-        if (pathManagerCheckResult.Item3 && StandIndexNow <= 9)
+        if (pathManagerCheckResult.Item3 && StandIndexNow <= pathManager.pathPositions.Count - 1)
         {
             StandIndexNow = pathManagerCheckResult.Item2;
-            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, pathManagerCheckResult.Item1.position, _speed);
+            Vector3 vectorPosition = new Vector3(pathManagerCheckResult.Item1.position.x, gameObject.transform.position.y, pathManagerCheckResult.Item1.position.z);
+            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, vectorPosition, _speed);
         }
     }
 }
