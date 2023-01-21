@@ -14,6 +14,7 @@ public class SpawnBuyersManager : MonoBehaviour
 
     void Start()
     {
+        Buyer.GetComponent<BuyerController>().pathManager = pathManager;
         timeSpawn = startTimeSpawn;
     }
 

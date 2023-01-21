@@ -10,11 +10,6 @@ public class BuyerController : MonoBehaviour
 
     public PathManager pathManager;
 
-    void Start()
-    {
-        pathManager = FindObjectOfType<PathManager>().GetComponent<PathManager>();
-    }
-
     void Update()
     {
         (Transform, int, bool) pathManagerCheckResult = pathManager.CheckNextPosition(StandIndexNow);

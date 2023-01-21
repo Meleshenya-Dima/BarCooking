@@ -10,11 +10,6 @@ public class SecurityController : MonoBehaviour
 
     public PathManager pathManager;
 
-    void Start()
-    {
-        pathManager = FindObjectOfType<PathManager>().GetComponent<PathManager>();
-    }
-
     void Update()
     {
         (Transform, int, bool) pathManagerCheckResult = pathManager.CheckNextPosition(StandIndexNow);
@@ -23,7 +18,6 @@ public class SecurityController : MonoBehaviour
             StandIndexNow = pathManagerCheckResult.Item2;
             Vector3 vectorPosition = new Vector3(pathManagerCheckResult.Item1.position.x, gameObject.transform.position.y, pathManagerCheckResult.Item1.position.z);
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, vectorPosition, _speed);
-            gameObject.GetComponent<Animator>().SetBool("Walk", true);
         }
     }
 }
