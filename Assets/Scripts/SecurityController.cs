@@ -1,23 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SecurityController : MonoBehaviour
 {
-    private float _speed = .05f;
+    private NavMeshAgent agent;
+    private int i;
+    public List<Transform> targets;
 
-    public int StandIndexNow = 0;
+    void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        TargetUpdate();
+    }
 
-    public PathManager pathManager;
+    private void TargetUpdate()
+    {
+        i = Random.Range(0, targets.Count);
+    }
 
     void Update()
     {
-        (Transform, int, bool) pathManagerCheckResult = pathManager.CheckNextPosition(StandIndexNow);
-        if (pathManagerCheckResult.Item3 && StandIndexNow <= pathManager.pathPositions.Count - 1)
+        if (agent.transform.position == agent.pathEndPosition)
         {
-            StandIndexNow = pathManagerCheckResult.Item2;
-            Vector3 vectorPosition = new Vector3(pathManagerCheckResult.Item1.position.x, gameObject.transform.position.y, pathManagerCheckResult.Item1.position.z);
-            gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, vectorPosition, _speed);
+            TargetUpdate();
         }
+        agent.SetDestination(targets[i].position);
     }
 }

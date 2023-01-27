@@ -19,6 +19,14 @@ public class PlayerController : MonoBehaviour
 
     private void GetInputAxis()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _speed = 5f;
+        }
+        else
+        {
+            _speed = 3f;
+        }
         if (Input.GetKey(KeyCode.W))
         {
             animator.SetTrigger("NotBackWalk");

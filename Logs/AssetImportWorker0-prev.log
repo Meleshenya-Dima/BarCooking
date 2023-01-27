@@ -9,13 +9,13 @@ C:\Program Files\Unity\Hub\Editor\2021.2.2f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker3
+AssetImportWorker0
 -projectPath
 C:/Users/meles/Desktop/Bar Cooking
 -logFile
-Logs/AssetImportWorker3.log
+Logs/AssetImportWorker0.log
 -srvPort
-49650
+55407
 Successfully changed project path to: C:/Users/meles/Desktop/Bar Cooking
 C:/Users/meles/Desktop/Bar Cooking
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/meles/Desktop/Bar Cooking
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 91.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 133.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005634 seconds.
+Registered in 0.008863 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 175.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
+- Completed reload, in  1.171 seconds
 Domain Reload Profiling:
-	ReloadAssembly (724ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (1172ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (562ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (888ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (555ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006030 seconds.
+Registered in 0.010919 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\meles\Desktop\Bar Cooking\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meles\Desktop\Bar Cooking\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
+- Completed reload, in  2.045 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1217ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (2047ms)
+		BeginReloadAssembly (305ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (930ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1562ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (405ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (763ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (539ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3514 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (118.4 KB). Loaded Objects now: 3981.
-Memory consumption went from 131.7 MB to 131.6 MB.
-Total: 3.416800 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.177300 ms MarkObjects: 2.833100 ms  DeleteObjects: 0.119500 ms)
+Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (118.7 KB). Loaded Objects now: 3983.
+Memory consumption went from 132.1 MB to 132.0 MB.
+Total: 7.194700 ms (FindLiveObjects: 0.747900 ms CreateObjectMapping: 0.427900 ms MarkObjects: 5.768600 ms  DeleteObjects: 0.248000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,31 +159,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45193.750622 seconds.
-  path: Assets/Sprite/Materials/door_frame.mat
-  artifactKey: Guid(f569ea75efc3535409294b362b56dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/door_frame.mat using Guid(f569ea75efc3535409294b362b56dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf89ccae0b1dc214234fa72a172aa4de') in 0.205590 seconds 
+  Time since last request: 4678.962990 seconds.
+  path: Assets/Scripts/SecurityController.cs
+  artifactKey: Guid(0b8fe37343c85884f8dd22ee399c9125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SecurityController.cs using Guid(0b8fe37343c85884f8dd22ee399c9125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.037312 seconds  code(4) message(Build asset version error: assets/scripts/securitycontroller.cs in SourceAssetDB has modification time of '2023-01-21T18:36:50.3348542Z' while content on disk has modification time of '2023-01-27T19:49:46.2334531Z')
+  ERROR: Build asset version error: assets/scripts/securitycontroller.cs in SourceAssetDB has modification time of '2023-01-21T18:36:50.3348542Z' while content on disk has modification time of '2023-01-27T19:49:46.2334531Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprite/Materials/T_Herringbone _Dark_Albedo.mat
-  artifactKey: Guid(08ee55e0436e35b4d87bf19ac2e60f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/T_Herringbone _Dark_Albedo.mat using Guid(08ee55e0436e35b4d87bf19ac2e60f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ae41f7aabf8f3d63e1b262f0c9de5') in 0.042452 seconds 
+  Time since last request: 29.218552 seconds.
+  path: Assets/Scripts/SecurityController.cs
+  artifactKey: Guid(0b8fe37343c85884f8dd22ee399c9125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SecurityController.cs using Guid(0b8fe37343c85884f8dd22ee399c9125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bc34803cb722d4911f5e9a7c4b9168') in 0.019998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprite/Materials/TallSquareTable_TallSquareTable-material_AlbedoTransparency.mat
-  artifactKey: Guid(24b39c17200261b439c3688c2bf38364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/TallSquareTable_TallSquareTable-material_AlbedoTransparency.mat using Guid(24b39c17200261b439c3688c2bf38364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b5e6e1733675dcb30e5ae3a83dc3d7') in 0.032981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprite/Materials/stone_floor_d.mat
-  artifactKey: Guid(3721bd6829d37c648a9d00bb38d5cfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/stone_floor_d.mat using Guid(3721bd6829d37c648a9d00bb38d5cfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fa81feb7a5b48962401c1cb79db5cf') in 0.027284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprite/Materials/Man_Moustache_diffuse.mat
-  artifactKey: Guid(b56bf63fcb36e384ba4fdcfe0c686e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Man_Moustache_diffuse.mat using Guid(b56bf63fcb36e384ba4fdcfe0c686e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90edf829843aa9bdff2d579d849b63cc') in 0.028493 seconds 
+  Time since last request: 24.595069 seconds.
+  path: Assets/Scripts/SecurityController.cs
+  artifactKey: Guid(0b8fe37343c85884f8dd22ee399c9125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SecurityController.cs using Guid(0b8fe37343c85884f8dd22ee399c9125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f30e39ad1e3c1730e922432baff34b8') in 0.002913 seconds 
