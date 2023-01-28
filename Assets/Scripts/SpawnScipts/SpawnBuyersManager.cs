@@ -5,7 +5,7 @@ public class SpawnBuyersManager : MonoBehaviour
 {
     public GameObject spawnPoint;
 
-    public GameObject Buyer;
+    public GameObject[] Buyers;
 
     public PathManager pathManager;
 
@@ -14,7 +14,11 @@ public class SpawnBuyersManager : MonoBehaviour
 
     void Start()
     {
-        Buyer.GetComponent<BuyerController>().pathManager = pathManager;
+
+        foreach (var buyer in Buyers)
+        {
+            buyer.GetComponent<BuyerController>().pathManager = pathManager;
+        } 
         timeSpawn = startTimeSpawn;
     }
 
@@ -25,7 +29,7 @@ public class SpawnBuyersManager : MonoBehaviour
             if (pathManager.GetFirstPositionOpen())
             {
                 timeSpawn = startTimeSpawn;
-                Instantiate(Buyer, spawnPoint.transform.position, Quaternion.identity);
+                Instantiate(Buyers[Random.Range(0, Buyers.Length)], spawnPoint.transform.position, Quaternion.identity);
             }
         }
         else
