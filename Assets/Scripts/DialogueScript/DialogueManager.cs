@@ -17,6 +17,8 @@ public class DialogueManager : MonoBehaviour
 
     private string _order;
 
+    public Transform SpawnZone;
+
     public void StartDialogue(Dialogue dialogue, GameObject transform)
     {
         buyerObject = transform;
@@ -45,7 +47,11 @@ public class DialogueManager : MonoBehaviour
         if (isAdd)
         {
             SendUpdateInformation();
-            Destroy(buyerObject);
+            buyerObject.GetComponent<BuyerController>().DanceZonePosition(SpawnZone);
+        }
+        else
+        {
+            DialogBoxAnimator.SetBool("IsOpen", false);
         }
     }
 

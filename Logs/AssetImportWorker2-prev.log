@@ -15,7 +15,7 @@ C:/Users/meles/Desktop/Bar Cooking
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57368
+65299
 Successfully changed project path to: C:/Users/meles/Desktop/Bar Cooking
 C:/Users/meles/Desktop/Bar Cooking
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/meles/Desktop/Bar Cooking
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 146.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,877 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008327 seconds.
+Registered in 0.006107 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  0.803 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1150ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (513ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
+				RefreshPlugins (103ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009948 seconds.
+Registered in 0.009286 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\meles\Desktop\Bar Cooking\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meles\Desktop\Bar Cooking\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.513 seconds
+- Completed reload, in  1.814 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2515ms)
-		BeginReloadAssembly (333ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1960ms)
-			LoadAssemblies (152ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (557ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (877ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (574ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (35ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3515 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (120.0 KB). Loaded Objects now: 3982.
-Memory consumption went from 132.0 MB to 131.9 MB.
-Total: 4.589600 ms (FindLiveObjects: 0.434100 ms CreateObjectMapping: 0.254300 ms MarkObjects: 3.640400 ms  DeleteObjects: 0.258900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9857.449499 seconds.
-  path: Assets/Prefab/ExtrasHuman/human11.fbx
-  artifactKey: Guid(bc5d80934e68e7742bb569594aaacdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human11.fbx using Guid(bc5d80934e68e7742bb569594aaacdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac162e933665db69316f9614cc8761') in 0.408648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.932174 seconds.
-  path: Assets/Prefab/ExtrasHuman/human12.fbx
-  artifactKey: Guid(90099f8d6e7bcc143a82709ee392af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human12.fbx using Guid(90099f8d6e7bcc143a82709ee392af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dc2f93e0f1fd9d1a9853e954aada7c') in 0.171256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.282422 seconds.
-  path: Assets/Prefab/ExtrasHuman/human13.fbx
-  artifactKey: Guid(4ce54bad5cda87c44a5af6a8238f15ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human13.fbx using Guid(4ce54bad5cda87c44a5af6a8238f15ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47df4bade0f555b649c73e63bd2458c2') in 0.192181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Prefab/ExtrasHuman/human20.fbx
-  artifactKey: Guid(782b8ad942da62f42bd010addbf046a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human20.fbx using Guid(782b8ad942da62f42bd010addbf046a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae91f84f57de9d0db350183a7d55772') in 0.184170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefab/ExtrasHuman/human17.fbx
-  artifactKey: Guid(349335c1e57ad764e8ec56469a99bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human17.fbx using Guid(349335c1e57ad764e8ec56469a99bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5695b71240bff1787a6e6cfaa8ba0c15') in 0.127586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.720883 seconds.
-  path: Assets/Prefab/ExtrasHuman/human11.fbx
-  artifactKey: Guid(bc5d80934e68e7742bb569594aaacdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human11.fbx using Guid(bc5d80934e68e7742bb569594aaacdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc56299c29a4669a1751d45da7aaacc') in 0.138020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.829595 seconds.
-  path: Assets/Prefab/ExtrasHuman/human12.fbx
-  artifactKey: Guid(90099f8d6e7bcc143a82709ee392af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human12.fbx using Guid(90099f8d6e7bcc143a82709ee392af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c0eb200fad0a07899016ffa34b39c8') in 0.168742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.629043 seconds.
-  path: Assets/Prefab/ExtrasHuman/human13.fbx
-  artifactKey: Guid(4ce54bad5cda87c44a5af6a8238f15ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human13.fbx using Guid(4ce54bad5cda87c44a5af6a8238f15ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e766d4f3d203f307e7c10242cf77c5a') in 0.205710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.146245 seconds.
-  path: Assets/Prefab/ExtrasHuman/human14.fbx
-  artifactKey: Guid(b6a0e386270ea2c48a012d5f16d4440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human14.fbx using Guid(b6a0e386270ea2c48a012d5f16d4440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00004fe154895235a2689675df6726f') in 0.133383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.536961 seconds.
-  path: Assets/Prefab/ExtrasHuman/human15.fbx
-  artifactKey: Guid(1bfe994b0b17bde42b604321a3eec34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human15.fbx using Guid(1bfe994b0b17bde42b604321a3eec34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852e213c7a8bec5c3b45afaae2f2d15b') in 0.143264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.806473 seconds.
-  path: Assets/Prefab/ExtrasHuman/human16.fbx
-  artifactKey: Guid(b2102c6ff67cbdc4abaff43e86e8115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human16.fbx using Guid(b2102c6ff67cbdc4abaff43e86e8115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4349467f30386f76116241cbfaea37') in 0.123812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.614508 seconds.
-  path: Assets/Prefab/ExtrasHuman/human17.fbx
-  artifactKey: Guid(349335c1e57ad764e8ec56469a99bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human17.fbx using Guid(349335c1e57ad764e8ec56469a99bcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c447d0c19096ac5366bf8b858654a573') in 0.145009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.868811 seconds.
-  path: Assets/Prefab/ExtrasHuman/human18.fbx
-  artifactKey: Guid(79a62d16865e0e641b4f3a874f154989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human18.fbx using Guid(79a62d16865e0e641b4f3a874f154989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4917f96ea579484bac89583df0352e8') in 0.112572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.487752 seconds.
-  path: Assets/Prefab/ExtrasHuman/human19.fbx
-  artifactKey: Guid(76a00222fc307c64baa8a144b0a1e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human19.fbx using Guid(76a00222fc307c64baa8a144b0a1e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fc9f68e55fad6f9f90673414f9f358') in 0.141173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.330770 seconds.
-  path: Assets/Prefab/ExtrasHuman/human19.fbx
-  artifactKey: Guid(76a00222fc307c64baa8a144b0a1e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human19.fbx using Guid(76a00222fc307c64baa8a144b0a1e4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c198da3fb1a10c48930597ae8328e5') in 0.149888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.666973 seconds.
-  path: Assets/Prefab/ExtrasHuman/human20.fbx
-  artifactKey: Guid(782b8ad942da62f42bd010addbf046a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human20.fbx using Guid(782b8ad942da62f42bd010addbf046a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941333d82c4089b887255324ea0f80ef') in 0.121964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.417305 seconds.
-  path: Assets/Prefab/ExtrasHuman/human20.fbx
-  artifactKey: Guid(782b8ad942da62f42bd010addbf046a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human20.fbx using Guid(782b8ad942da62f42bd010addbf046a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db71feeb7d9a2ea59c8fb71a85c9241a') in 0.118301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 179.440950 seconds.
-  path: Assets/Sprite/human11_Bottom_diffuse.png
-  artifactKey: Guid(5fafbe8439860a442834781a6fed8ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human11_Bottom_diffuse.png using Guid(5fafbe8439860a442834781a6fed8ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26b22162cabbb2b609b00c9461c951d') in 0.052555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/human11_Shoes_diffuse.png
-  artifactKey: Guid(e31ad0cddf74887498887f8bd196c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human11_Shoes_diffuse.png using Guid(e31ad0cddf74887498887f8bd196c56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abe8939937a2367a711f9e95031909a') in 0.028357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.022649 seconds.
-  path: Assets/Sprite/human11_Body_diffuse.png
-  artifactKey: Guid(4c044417fe5fbbc4d8ed7f904c9de5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human11_Body_diffuse.png using Guid(4c044417fe5fbbc4d8ed7f904c9de5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4c20e491c805ec8c44393b0a5e7656') in 0.031673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 158.951887 seconds.
-  path: Assets/Sprite/human12_Body_diffuse.png
-  artifactKey: Guid(ed05e75886ec46a46a62565b9ae207ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human12_Body_diffuse.png using Guid(ed05e75886ec46a46a62565b9ae207ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b5f726d231797784db254875bb98b4') in 0.033286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprite/human12_Shoes_diffuse.png
-  artifactKey: Guid(c8902422126196046a9de342ab3351a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human12_Shoes_diffuse.png using Guid(c8902422126196046a9de342ab3351a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36644700e03e6c4adfc9dfb708027577') in 0.029903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 110.592495 seconds.
-  path: Assets/Sprite/human13_Bottom_diffuse.png
-  artifactKey: Guid(585944e8e8ed377489f671fe896f278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human13_Bottom_diffuse.png using Guid(585944e8e8ed377489f671fe896f278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2b20d61657ef8d3bceedb867ebd958') in 0.024789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 110.537483 seconds.
-  path: Assets/Sprite/human14_Body_diffuse.png
-  artifactKey: Guid(3c5fb45fefc515244b46a209833dfeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human14_Body_diffuse.png using Guid(3c5fb45fefc515244b46a209833dfeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b93fba27372aa8a93d1a76c1fb5494') in 0.022929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.439098 seconds.
-  path: Assets/Sprite/human14_Top_diffuse.png
-  artifactKey: Guid(04fc3781a1ac95244b0e9d4f66d74097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human14_Top_diffuse.png using Guid(04fc3781a1ac95244b0e9d4f66d74097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61daad4f01c14a4345b19d6532b75ebc') in 0.026894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.289986 seconds.
-  path: Assets/Sprite/human14_Hair_diffuse.png
-  artifactKey: Guid(c2bdd2466a5d4fc4188d32ac99e94eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human14_Hair_diffuse.png using Guid(c2bdd2466a5d4fc4188d32ac99e94eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45482ddff2645702a22f5364ebb32aad') in 0.017848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 138.520053 seconds.
-  path: Assets/Sprite/human15_Top_diffuse.png
-  artifactKey: Guid(d52a56aba2d1d4547bfc7af0e6aa59e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human15_Top_diffuse.png using Guid(d52a56aba2d1d4547bfc7af0e6aa59e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a505e5f323cd1e5603810de256eb650') in 0.017042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.762618 seconds.
-  path: Assets/Sprite/human15_Hat_diffuse.png
-  artifactKey: Guid(7c6fadd434dcb034b822dbcb384a97c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human15_Hat_diffuse.png using Guid(7c6fadd434dcb034b822dbcb384a97c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc04bcfe37f80984bdcbdf16c3bc864') in 0.017636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.163201 seconds.
-  path: Assets/Sprite/human15_Bottom_diffuse.png
-  artifactKey: Guid(0491584af4666b0429f59a8671e6ad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human15_Bottom_diffuse.png using Guid(0491584af4666b0429f59a8671e6ad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28606300a2240ffeb2b93e81feaa9d1') in 0.033598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 159.121649 seconds.
-  path: Assets/Sprite/human16_Body_diffuse.png
-  artifactKey: Guid(86bad1ffce70f9c4bbd9354874919d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human16_Body_diffuse.png using Guid(86bad1ffce70f9c4bbd9354874919d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2c360bf31c27bb5e77548243f95b52') in 0.028330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.055545 seconds.
-  path: Assets/Sprite/human16_Shoes_diffuse.png
-  artifactKey: Guid(634b51e6e4770d54baa1face4a353f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human16_Shoes_diffuse.png using Guid(634b51e6e4770d54baa1face4a353f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ea34c8124438681fad6890adebb791') in 0.015653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.289903 seconds.
-  path: Assets/Sprite/human17_Body_diffuse.png
-  artifactKey: Guid(e2dff5eefca834543a76d560b7420e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human17_Body_diffuse.png using Guid(e2dff5eefca834543a76d560b7420e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c8e7c549743d29cf57d8a51a7c855e') in 0.021588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.151682 seconds.
-  path: Assets/Sprite/human17_Bottom_diffuse.png
-  artifactKey: Guid(c77f9310064324a468dc781d1543d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human17_Bottom_diffuse.png using Guid(c77f9310064324a468dc781d1543d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4061d3da2910c8dea89c385536f6117f') in 0.018642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.671067 seconds.
-  path: Assets/Sprite/human17_Shoes_diffuse.png
-  artifactKey: Guid(d2cc2499600587b469f6e60887bf677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human17_Shoes_diffuse.png using Guid(d2cc2499600587b469f6e60887bf677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3db4c0bd84936524a6d116664e733e8') in 0.019728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.542360 seconds.
-  path: Assets/Sprite/human17_Top_diffuse.png
-  artifactKey: Guid(a9b2b98491fad454191116e250207085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human17_Top_diffuse.png using Guid(a9b2b98491fad454191116e250207085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e911cbea6c3cf62107e0f5e271ad13e') in 0.018115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 115.064638 seconds.
-  path: Assets/Sprite/human19_Body_diffuse.png
-  artifactKey: Guid(f8619e0f0ff66764bac703d2a44a78e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human19_Body_diffuse.png using Guid(f8619e0f0ff66764bac703d2a44a78e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d609d0b31b1666ac8c37a6081c1e8d') in 0.020501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.860372 seconds.
-  path: Assets/Sprite/human19_Bottom_diffuse.png
-  artifactKey: Guid(9d25e59d7d225e243a20972573ea760d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human19_Bottom_diffuse.png using Guid(9d25e59d7d225e243a20972573ea760d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3039e23c41ce45228daf09a4095362') in 0.019596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.571435 seconds.
-  path: Assets/Sprite/human19_Top_diffuse.png
-  artifactKey: Guid(50310ddfe8756ff49b0df757b74d9304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human19_Top_diffuse.png using Guid(50310ddfe8756ff49b0df757b74d9304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f117d5ed55d6ddfcf31aac2408551c7') in 0.050342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.810506 seconds.
-  path: Assets/Sprite/human19_Hair_diffuse.png
-  artifactKey: Guid(164e3883ccebb314789d19b5a95d6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human19_Hair_diffuse.png using Guid(164e3883ccebb314789d19b5a95d6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcee647d571f6ca1a2dd7498a6b00ee') in 0.020875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.941633 seconds.
-  path: Assets/Sprite/human20_Bottom_diffuse.png
-  artifactKey: Guid(5c41415ebb1f35d48851f12c5d69f0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human20_Bottom_diffuse.png using Guid(5c41415ebb1f35d48851f12c5d69f0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cdec650eedd72d7ba8ca34a4d08020') in 0.031460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprite/human20_Top_diffuse.png
-  artifactKey: Guid(7b1d2c646bf127943ab0bee193a90efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human20_Top_diffuse.png using Guid(7b1d2c646bf127943ab0bee193a90efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95551764ee92403121ec959c9e6f0ef') in 0.019527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.101709 seconds.
-  path: Assets/Sprite/human20_Body_diffuse.png
-  artifactKey: Guid(f5a4a6696026aca46ba98eedf04e737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human20_Body_diffuse.png using Guid(f5a4a6696026aca46ba98eedf04e737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fc2f94948c055da7ef2acc316b9e53') in 0.019947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.772411 seconds.
-  path: Assets/Sprite/Materials
-  artifactKey: Guid(98b2b94ff02606b428fd6830dc6f46dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials using Guid(98b2b94ff02606b428fd6830dc6f46dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f469129a7f95abe1581c2d56858927') in 0.007183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063235 seconds.
-  path: Assets/Sprite/Materials/Cobblestone.mat
-  artifactKey: Guid(f4e98d2dec73440bc804b8e5ef138aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Cobblestone.mat using Guid(f4e98d2dec73440bc804b8e5ef138aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd387c1923beec55ce5eb0f2903b977') in 0.078615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprite/Materials/human6_Body_diffuse.mat
-  artifactKey: Guid(db1917c17d733be429e61e216d3d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human6_Body_diffuse.mat using Guid(db1917c17d733be429e61e216d3d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de59f71e6c46f40c70034bb07c3248aa') in 0.033771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprite/Materials/human1_Shoes_diffuse.mat
-  artifactKey: Guid(3868d471a8eae1a4e91bfabb900203ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human1_Shoes_diffuse.mat using Guid(3868d471a8eae1a4e91bfabb900203ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeeb3826fc7f01bcc8cf9effb8a7b84') in 0.024262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprite/Materials/human2_Hair_diffuse.mat
-  artifactKey: Guid(e949f1e533e56024a830d1b1b05245da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human2_Hair_diffuse.mat using Guid(e949f1e533e56024a830d1b1b05245da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40ba0a4b2d15d9da868ed722da0cb6b') in 0.023606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Sprite/Materials/human3_Top_diffuse.mat
-  artifactKey: Guid(902b7ad29b309ea4ea3a779de4d178f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human3_Top_diffuse.mat using Guid(902b7ad29b309ea4ea3a779de4d178f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf16750fc675039c382c4a3c7cbdb390') in 0.026438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprite/Materials/human5_Bottom_diffuse.mat
-  artifactKey: Guid(ef8a31144b773dc48a4a04b6678ec35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human5_Bottom_diffuse.mat using Guid(ef8a31144b773dc48a4a04b6678ec35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286a23de057e2c0366dfa6570c07b319') in 0.020534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprite/Materials/human5_Top_diffuse.mat
-  artifactKey: Guid(b13f9c1795f4295489ba6e68c3e016fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human5_Top_diffuse.mat using Guid(b13f9c1795f4295489ba6e68c3e016fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8c6c5ea11f26bb51a00a8da2a7584e') in 0.033217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Materials/human1_Body_diffuse.mat
-  artifactKey: Guid(8faed887d8c858545801a838d15557a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human1_Body_diffuse.mat using Guid(8faed887d8c858545801a838d15557a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372dd7181972bdb6b8ba0a36bae72f50') in 0.032751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprite/Materials/door_d.mat
-  artifactKey: Guid(98fdfa0a1b9540944b063d01bc8ff33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/door_d.mat using Guid(98fdfa0a1b9540944b063d01bc8ff33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc109a1c5aff374e0a5c41334b7e94ec') in 0.032921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Materials/human2_Top_diffuse.mat
-  artifactKey: Guid(8fa2c416b0965a8448b3e41a4b66e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human2_Top_diffuse.mat using Guid(8fa2c416b0965a8448b3e41a4b66e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8acda80e65c86497eb062dac175522') in 0.028012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.162010 seconds.
-  path: Assets/Sprite/Materials/human6_Bottom_diffuse.mat
-  artifactKey: Guid(bd8484f24d39dbe479ab8159bb7d279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human6_Bottom_diffuse.mat using Guid(bd8484f24d39dbe479ab8159bb7d279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b58b60d40b8f2bce4cd1704b141a69') in 0.021106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprite/Materials/human6_Top_diffuse.mat
-  artifactKey: Guid(49731abcb6833b84cac6fea4544b416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human6_Top_diffuse.mat using Guid(49731abcb6833b84cac6fea4544b416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e483934ee27460a05cd6753f9f7bcc0d') in 0.023710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Materials/human7_Body_diffuse.mat
-  artifactKey: Guid(61ec6a122e0894f4ea986343177869ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human7_Body_diffuse.mat using Guid(61ec6a122e0894f4ea986343177869ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945d5224b473437c874bf6b4245f247c') in 0.035780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043792 seconds.
-  path: Assets/Sprite/Materials/human7_Shoes_diffuse.mat
-  artifactKey: Guid(bb82a838b9fecf84c8bcf2c4eccecae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human7_Shoes_diffuse.mat using Guid(bb82a838b9fecf84c8bcf2c4eccecae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d9169f26f44c6f83cb72068593c469') in 0.031145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprite/Materials/human8_Top_diffuse.mat
-  artifactKey: Guid(34677d0a777b81340b70e9369ae93310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human8_Top_diffuse.mat using Guid(34677d0a777b81340b70e9369ae93310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4941ec6451b5d1729e5e197e3a3003d') in 0.033511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Sprite/Materials/human8_Body_diffuse.mat
-  artifactKey: Guid(90e176b495daa7449aec7113e5c87415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human8_Body_diffuse.mat using Guid(90e176b495daa7449aec7113e5c87415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fda63490ba02bca26a2b27bab1e7b0') in 0.028655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038516 seconds.
-  path: Assets/Sprite/Materials/human9_Bottom_diffuse.mat
-  artifactKey: Guid(e3ed6e1ee140fe34189d5c81c65bf70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human9_Bottom_diffuse.mat using Guid(e3ed6e1ee140fe34189d5c81c65bf70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dd9900c111c3491b7177b86a7f0302') in 0.036518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprite/Materials/human10_Shoes_diffuse.mat
-  artifactKey: Guid(ebe4469d0250b3e4f9719035863f7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human10_Shoes_diffuse.mat using Guid(ebe4469d0250b3e4f9719035863f7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68feee9b1c1b0b37726c0106d2122c42') in 0.030728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprite/Materials/human9_Shoes_diffuse.mat
-  artifactKey: Guid(f6d6b58dc2cbd3b4b8558f392ace31d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human9_Shoes_diffuse.mat using Guid(f6d6b58dc2cbd3b4b8558f392ace31d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cb4123fde6da4a346a3be6d7ddc078') in 0.034008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprite/Materials/human10_Top_diffuse.mat
-  artifactKey: Guid(e3cca18fcc568cb409b741cdfd5d077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human10_Top_diffuse.mat using Guid(e3cca18fcc568cb409b741cdfd5d077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c8693c110b42327bac5af6711a7595') in 0.033932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.154024 seconds.
-  path: Assets/Sprite/Materials/human11_Body_diffuse.mat
-  artifactKey: Guid(6da3ae99810f6e048bc623d65b9b324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human11_Body_diffuse.mat using Guid(6da3ae99810f6e048bc623d65b9b324d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507031f25edb6d4e48e28c3ec7c49988') in 0.045235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprite/Materials/human14_Top_diffuse.mat
-  artifactKey: Guid(b598658c68b0b6e4d91b73f582ac53c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human14_Top_diffuse.mat using Guid(b598658c68b0b6e4d91b73f582ac53c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcf4ce8e69111d4ff05f56208dd917c') in 0.023010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprite/Materials/human17_Body_diffuse.mat
-  artifactKey: Guid(4cff33234b308b9428b154cb8ca1676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human17_Body_diffuse.mat using Guid(4cff33234b308b9428b154cb8ca1676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae218dbe575c3803a5fc3b3f2fbf067') in 0.018931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprite/Materials/human16_Shoes_diffuse.mat
-  artifactKey: Guid(e5a61721e7c81d9488c27664d680b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human16_Shoes_diffuse.mat using Guid(e5a61721e7c81d9488c27664d680b8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb57d80b6878e318fe65426bd4c5423') in 0.025931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprite/Materials/human20_Body_diffuse.mat
-  artifactKey: Guid(d64ccb4b1bad92d4c87de8ab1b903595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human20_Body_diffuse.mat using Guid(d64ccb4b1bad92d4c87de8ab1b903595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dbe761bbb5b445e636217ee15ec4d7') in 0.018055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprite/Materials/human19_Body_diffuse.mat
-  artifactKey: Guid(0b21df438c133a642a2d2a0d0ad9df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human19_Body_diffuse.mat using Guid(0b21df438c133a642a2d2a0d0ad9df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e510805287eefc333082804d60d839') in 0.025612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Sprite/Materials/human13_Bottom_diffuse.mat
-  artifactKey: Guid(c82a54b982abb994993822cf1a6eb88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human13_Bottom_diffuse.mat using Guid(c82a54b982abb994993822cf1a6eb88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbd7e774cafe6fafe50d18b95a6ead0') in 0.018764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprite/Materials/human12_Body_diffuse.mat
-  artifactKey: Guid(6aa276738e7e2d247b08af4be881e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human12_Body_diffuse.mat using Guid(6aa276738e7e2d247b08af4be881e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d0de44e365de5f6f2df1649a40675f') in 0.019956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprite/Materials/human12_Top_diffuse.mat
-  artifactKey: Guid(eed3a9f045a283b48b77e3dea4eee4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human12_Top_diffuse.mat using Guid(eed3a9f045a283b48b77e3dea4eee4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8cb1584420aad5300050a7228460a9') in 0.023759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprite/Materials/human17_Bottom_diffuse.mat
-  artifactKey: Guid(e28049f0c71e0c04783d11871f4fb98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human17_Bottom_diffuse.mat using Guid(e28049f0c71e0c04783d11871f4fb98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2510d15d8010e76355ebc391786f9a17') in 0.020104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Sprite/Materials/human15_Hat_diffuse.mat
-  artifactKey: Guid(e0ca1d209a26314498af95bc63d951ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human15_Hat_diffuse.mat using Guid(e0ca1d209a26314498af95bc63d951ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb95bfad74d59180eb8d2fc06fd9e855') in 0.023277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Sprite/Materials/human11_Shoes_diffuse.mat
-  artifactKey: Guid(a8742c2faad4b73479c22dd1f9d5cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human11_Shoes_diffuse.mat using Guid(a8742c2faad4b73479c22dd1f9d5cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bc22b01262a3515e8fddd9a94eb826') in 0.026819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprite/Materials/human11_Top_diffuse.mat
-  artifactKey: Guid(4ec42b6e6470de945a37fdc10df7f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human11_Top_diffuse.mat using Guid(4ec42b6e6470de945a37fdc10df7f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4793161afce9cc2ec43188b77c215eab') in 0.039622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Sprite/Materials/Security_Bottom_diffuse.mat
-  artifactKey: Guid(d4366ed84dead664988e24b291cc9a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Security_Bottom_diffuse.mat using Guid(d4366ed84dead664988e24b291cc9a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0251694343e7d64265201c8887c723d7') in 0.038938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprite/Materials/Security_Top_diffuse.mat
-  artifactKey: Guid(c041eab14f4af6947bd17b7f1a03cd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Security_Top_diffuse.mat using Guid(c041eab14f4af6947bd17b7f1a03cd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7f2c58a1ac251ade466649dbd95005') in 0.038939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprite/Materials/RoundTable_RoundTable-material_AlbedoTransparency.mat
-  artifactKey: Guid(376e2a8bf1ff87847a58ac30e0b695b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/RoundTable_RoundTable-material_AlbedoTransparency.mat using Guid(376e2a8bf1ff87847a58ac30e0b695b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571a8655317ccc140628a19ee6ccb9d4') in 0.037484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprite/Materials/Man_Shoes_diffuse.mat
-  artifactKey: Guid(a92ab91e589dd514cb8f30b4a9d1c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Man_Shoes_diffuse.mat using Guid(a92ab91e589dd514cb8f30b4a9d1c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727d8f7ad203b22a41f1ed84c1d898f8') in 0.041072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprite/Materials/human_Top_diffuse.mat
-  artifactKey: Guid(fd91e63fc5b64cb43bee363f6379e64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human_Top_diffuse.mat using Guid(fd91e63fc5b64cb43bee363f6379e64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257b10a9bdb452557d741b17de6efa52') in 0.029069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprite/Materials/Security_Hair_diffuse.mat
-  artifactKey: Guid(22b12dc32384c474e96e47c3654c41aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Security_Hair_diffuse.mat using Guid(22b12dc32384c474e96e47c3654c41aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2990f87e741138f43a9a457a535cdab') in 0.039535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Sprite/Materials/Security_Shoes_diffuse.mat
-  artifactKey: Guid(f00698a16a088cd49a4a95b786a42b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Security_Shoes_diffuse.mat using Guid(f00698a16a088cd49a4a95b786a42b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5add4d017b19dd828a03497b92a30e') in 0.026224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprite/Materials/TallSquareTable.mat
-  artifactKey: Guid(ad2901fd0821dfa43883c7f7ba8217fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/TallSquareTable.mat using Guid(ad2901fd0821dfa43883c7f7ba8217fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd869450d849d6cd4047fa8fe25266e5e') in 0.035447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprite/Materials/Wood_Planks_basecolor.mat
-  artifactKey: Guid(67cc4837b3e052f428bedd0a2b50b158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Wood_Planks_basecolor.mat using Guid(67cc4837b3e052f428bedd0a2b50b158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459d2928c6190ac82d3c42e804a652f6') in 0.036559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprite/Materials/toilet_A.mat
-  artifactKey: Guid(f8d69ad4278b17b409f41f75442df59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/toilet_A.mat using Guid(f8d69ad4278b17b409f41f75442df59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa61a0b327ca365b7bd7e229616d2297') in 0.040733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Sprite/Materials/Stonetile.mat
-  artifactKey: Guid(05b9a14436e226344961bfb6bf5c3e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Stonetile.mat using Guid(05b9a14436e226344961bfb6bf5c3e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee6b81838169f470b4f8a4b165fe16e') in 0.043160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprite/Materials/human_Bottom_diffuse.mat
-  artifactKey: Guid(c653a907c5218ae4fa7155b97d357465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human_Bottom_diffuse.mat using Guid(c653a907c5218ae4fa7155b97d357465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef83bd464a52762dc955a04e228f2510') in 0.034003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprite/Materials/stone_floor_d.mat
-  artifactKey: Guid(3721bd6829d37c648a9d00bb38d5cfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/stone_floor_d.mat using Guid(3721bd6829d37c648a9d00bb38d5cfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fa81feb7a5b48962401c1cb79db5cf') in 0.035392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprite/Materials/human20_Hair_diffuse.mat
-  artifactKey: Guid(8054068ccd6f8df429e321ddff5ab3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human20_Hair_diffuse.mat using Guid(8054068ccd6f8df429e321ddff5ab3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17928b2926711e498d125be9cb8d31d3') in 0.023261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprite/Materials/human20_Bottom_diffuse.mat
-  artifactKey: Guid(94299ff999a3bee4f98e840e06e2f289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/human20_Bottom_diffuse.mat using Guid(94299ff999a3bee4f98e840e06e2f289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85602eb81a11668868313d83df8d300') in 0.022689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprite/Materials/Man_Moustache_diffuse.mat
-  artifactKey: Guid(b56bf63fcb36e384ba4fdcfe0c686e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Man_Moustache_diffuse.mat using Guid(b56bf63fcb36e384ba4fdcfe0c686e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90edf829843aa9bdff2d579d849b63cc') in 0.033625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.329107 seconds.
-  path: Assets/Sprite/human20_Shoes_diffuse.png
-  artifactKey: Guid(ad6309fd72992454fa389cb1acd34595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human20_Shoes_diffuse.png using Guid(ad6309fd72992454fa389cb1acd34595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671056f236cddedd88c7d0dfa92fdb3d') in 0.019860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.205760 seconds.
-  path: Assets/Sprite/human18_Top_diffuse.png
-  artifactKey: Guid(bc1d8983b8ed2db4bbfffc8e375ee7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human18_Top_diffuse.png using Guid(bc1d8983b8ed2db4bbfffc8e375ee7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1636eecc6cef19b7320ee8d227a53e1') in 0.019194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.419183 seconds.
-  path: Assets/Sprite/human18_Body_diffuse.png
-  artifactKey: Guid(0bd90477ed7ac5549b6f1ad0747292c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/human18_Body_diffuse.png using Guid(0bd90477ed7ac5549b6f1ad0747292c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3904fab20285a9b988df240f04b566f') in 0.018241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 151.002136 seconds.
-  path: Assets/Animation/HumanWalking1.fbx
-  artifactKey: Guid(1e455ec41cfa4e74eb7d287b0e72be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking1.fbx using Guid(1e455ec41cfa4e74eb7d287b0e72be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b3996fa7bc6731b93419a762ed1f3e') in 0.184599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.185935 seconds.
-  path: Assets/Animation/HumanWalking5.fbx
-  artifactKey: Guid(bbe2ddc08b8585e4f8f50f7fb0b68c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking5.fbx using Guid(bbe2ddc08b8585e4f8f50f7fb0b68c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3364d09c26268acf03f11d893e139b9') in 0.178991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.179258 seconds.
-  path: Assets/Animation/HumanIdle5.fbx
-  artifactKey: Guid(6919becbd3d246c4a976f19f297ba52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanIdle5.fbx using Guid(6919becbd3d246c4a976f19f297ba52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec5819e8fb9e7fc75a6758761e36b1e') in 0.191466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.692844 seconds.
-  path: Assets/Animator/BuyerAnimator5.controller
-  artifactKey: Guid(305d9757529a32b47885192beedd34b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator/BuyerAnimator5.controller using Guid(305d9757529a32b47885192beedd34b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ef6df3dd3a8c8b192b2339d3fdfb91') in 0.011565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.815490 seconds.
-  path: Assets/Animator/BuyerAnimator6.controller
-  artifactKey: Guid(ddd8d5d44b256e74d85913017bc9ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator/BuyerAnimator6.controller using Guid(ddd8d5d44b256e74d85913017bc9ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbe32179b3d677767b69174b11f0c5f') in 0.008165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 69.705349 seconds.
-  path: Assets/Animation/HumanIdle5.fbx
-  artifactKey: Guid(6919becbd3d246c4a976f19f297ba52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanIdle5.fbx using Guid(6919becbd3d246c4a976f19f297ba52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac67c02fc814b50f5452931a2fe00ed') in 0.166435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.416153 seconds.
-  path: Assets/Animation/HumanIdle5.fbx
-  artifactKey: Guid(6919becbd3d246c4a976f19f297ba52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanIdle5.fbx using Guid(6919becbd3d246c4a976f19f297ba52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0915476125bd491d6a038b1f022bfc74') in 0.129894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.759228 seconds.
-  path: Assets/Animation/HumanIdle6.fbx
-  artifactKey: Guid(fc843be388955db43a084cc2eb21636e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanIdle6.fbx using Guid(fc843be388955db43a084cc2eb21636e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8d7099e5e6becec984c1c84d48c644') in 0.124734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.334442 seconds.
-  path: Assets/Animation/HumanIdle6.fbx
-  artifactKey: Guid(fc843be388955db43a084cc2eb21636e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanIdle6.fbx using Guid(fc843be388955db43a084cc2eb21636e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514d5d72e99ccb033d237e1ce3d488af') in 0.156927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.518081 seconds.
-  path: Assets/Animation/HumanWalking5.fbx
-  artifactKey: Guid(bbe2ddc08b8585e4f8f50f7fb0b68c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking5.fbx using Guid(bbe2ddc08b8585e4f8f50f7fb0b68c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe47cb76928ee883502a36cad25a2b9') in 0.158192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.416287 seconds.
-  path: Assets/Animation/HumanWalking5.fbx
-  artifactKey: Guid(bbe2ddc08b8585e4f8f50f7fb0b68c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking5.fbx using Guid(bbe2ddc08b8585e4f8f50f7fb0b68c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2cc7fa3ce129e288f1a5302afc8687') in 0.127710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.281552 seconds.
-  path: Assets/Animation/HumanWalking6.fbx
-  artifactKey: Guid(f1b0bdaa1a0f2ac42af432016574336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking6.fbx using Guid(f1b0bdaa1a0f2ac42af432016574336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fc796f2a6c0737bc503637eef5ba03') in 0.127118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.989634 seconds.
-  path: Assets/Animation/HumanWalking6.fbx
-  artifactKey: Guid(f1b0bdaa1a0f2ac42af432016574336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking6.fbx using Guid(f1b0bdaa1a0f2ac42af432016574336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551941b9cbd9113f30d489a70b1ccd7c') in 0.140194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.034704 seconds.
-  path: Assets/Animation/HumanWalking6.fbx
-  artifactKey: Guid(f1b0bdaa1a0f2ac42af432016574336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/HumanWalking6.fbx using Guid(f1b0bdaa1a0f2ac42af432016574336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f11038327fd295eedd4a854fe7dfbe') in 0.179926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.570025 seconds.
-  path: Assets/Animator/BuyerAnimator6.controller
-  artifactKey: Guid(ddd8d5d44b256e74d85913017bc9ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator/BuyerAnimator6.controller using Guid(ddd8d5d44b256e74d85913017bc9ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bf47abc350894ea1aa58f2a95df434') in 0.003505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.606924 seconds.
-  path: Assets/Animator/BuyerAnimator6.controller
-  artifactKey: Guid(ddd8d5d44b256e74d85913017bc9ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator/BuyerAnimator6.controller using Guid(ddd8d5d44b256e74d85913017bc9ffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f290ba90902b34fe9c558a0dd0a24592') in 0.007630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 270.700348 seconds.
-  path: Assets/Prefab/ExtrasHuman/human11.prefab
-  artifactKey: Guid(a4860708f1e70e644ba82429367a8434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human11.prefab using Guid(a4860708f1e70e644ba82429367a8434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ad0e4bcb9ee1ce02bf1bdb715e00a2') in 0.055801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.583684 seconds.
-  path: Assets/Prefab/ExtrasHuman/human11.prefab
-  artifactKey: Guid(a4860708f1e70e644ba82429367a8434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human11.prefab using Guid(a4860708f1e70e644ba82429367a8434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9913f1dc113567697a6f35e8931936f1') in 0.038126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 197.321280 seconds.
-  path: Assets/Prefab/ExtrasHuman/human12.prefab
-  artifactKey: Guid(a554e1be98548e24ba9d9333e60fdac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human12.prefab using Guid(a554e1be98548e24ba9d9333e60fdac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8530b2838ca42abe8e6a657b1d4c667f') in 0.040094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.599036 seconds.
-  path: Assets/Prefab/ExtrasHuman/human13.prefab
-  artifactKey: Guid(35c81585d92ad1e44932a7edd323c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human13.prefab using Guid(35c81585d92ad1e44932a7edd323c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4500566c86d93de476fced9e23df109e') in 0.076894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.712004 seconds.
-  path: Assets/Prefab/ExtrasHuman/human14.prefab
-  artifactKey: Guid(fc089b07726cb5446885672669d83558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human14.prefab using Guid(fc089b07726cb5446885672669d83558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a91fe7a49071a525488b66d542f54d') in 0.036115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.854888 seconds.
-  path: Assets/Prefab/ExtrasHuman/human15.prefab
-  artifactKey: Guid(1eb7dfaf3174aba468e61efad0b382f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human15.prefab using Guid(1eb7dfaf3174aba468e61efad0b382f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bf5565cf7de75e037981c3a6a49e48') in 0.049178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.175991 seconds.
-  path: Assets/Prefab/ExtrasHuman/human16.prefab
-  artifactKey: Guid(ae8c6510d5a393745a6479484dcf93f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human16.prefab using Guid(ae8c6510d5a393745a6479484dcf93f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7a6221eaa9a0403cd74530f1abc944') in 0.043691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.573125 seconds.
-  path: Assets/Prefab/ExtrasHuman/human17.prefab
-  artifactKey: Guid(64e1fd3445ff4c345b0a56d04e360d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human17.prefab using Guid(64e1fd3445ff4c345b0a56d04e360d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5240760e4aed7398095a2cec652bb78') in 0.042791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.774492 seconds.
-  path: Assets/Prefab/ExtrasHuman/human18.prefab
-  artifactKey: Guid(3e5ebb18e931d2040b3a735c7bd87482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human18.prefab using Guid(3e5ebb18e931d2040b3a735c7bd87482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce395c1968ccd590e211a6251d07dc') in 0.033843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.687952 seconds.
-  path: Assets/Prefab/ExtrasHuman/human19.prefab
-  artifactKey: Guid(925a5a3698f63fe47aa4f33e4222acab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human19.prefab using Guid(925a5a3698f63fe47aa4f33e4222acab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ade29a3fbd173538461149fbd0e3dc1') in 0.030319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.602814 seconds.
-  path: Assets/Prefab/ExtrasHuman/human20.prefab
-  artifactKey: Guid(71108b4f0d521d14dbb9f1d9120ab03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ExtrasHuman/human20.prefab using Guid(71108b4f0d521d14dbb9f1d9120ab03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc5d6050ddbd234f3e8969f8a2f0467') in 0.031625 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007652 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meles\Desktop\Bar Cooking\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meles\Desktop\Bar Cooking\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.022 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2023ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (1818ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (1602ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1490ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
+			SetupTypeCache (306ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (682ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (750ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (471ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (506ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (72.8 KB). Loaded Objects now: 4448.
-Memory consumption went from 187.5 MB to 187.4 MB.
-Total: 7.031600 ms (FindLiveObjects: 0.499700 ms CreateObjectMapping: 0.380600 ms MarkObjects: 5.961700 ms  DeleteObjects: 0.187800 ms)
+Unloading 24 unused Assets / (93.5 KB). Loaded Objects now: 3985.
+Memory consumption went from 132.3 MB to 132.2 MB.
+Total: 4.974600 ms (FindLiveObjects: 0.415000 ms CreateObjectMapping: 0.331600 ms MarkObjects: 4.074900 ms  DeleteObjects: 0.151300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -945,3 +157,187 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12909.024244 seconds.
+  path: Assets/ProBuilder Data/Default Color Palette.asset
+  artifactKey: Guid(5b73b3cec66a57c4c88402777ad101ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Color Palette.asset using Guid(5b73b3cec66a57c4c88402777ad101ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba515dc107d62a64dc471c880af6dd48') in 0.073397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.219960 seconds.
+  path: Assets/Prefab/plattenspieler.fbx
+  artifactKey: Guid(a1785c07807e4aa489164840bba94f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/plattenspieler.fbx using Guid(a1785c07807e4aa489164840bba94f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392fd043c07a5d9083c88143ec37530b') in 0.140942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.752214 seconds.
+  path: Assets/Sprite/human12_Bottom_diffuse.png
+  artifactKey: Guid(0476da3959872e948971d8da36411f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human12_Bottom_diffuse.png using Guid(0476da3959872e948971d8da36411f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25402cac694869c78d2b470c2cc498aa') in 0.061733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprite/human12_Top_diffuse.png
+  artifactKey: Guid(f0ab9063d8d6bc54392441c1d8f0b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human12_Top_diffuse.png using Guid(f0ab9063d8d6bc54392441c1d8f0b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c2b6b8ef588b33d6b63b6e04befbfa') in 0.024158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprite/human13_Bottom_diffuse.png
+  artifactKey: Guid(585944e8e8ed377489f671fe896f278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human13_Bottom_diffuse.png using Guid(585944e8e8ed377489f671fe896f278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2b20d61657ef8d3bceedb867ebd958') in 0.022906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.237389 seconds.
+  path: Assets/Sprite/human14_Shoes_diffuse.png
+  artifactKey: Guid(ff180a76bf88d7141ad2ed7c02c94216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human14_Shoes_diffuse.png using Guid(ff180a76bf88d7141ad2ed7c02c94216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4384a153627cf29fc5cf1ee20ce967cf') in 0.022049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/human16_Shoes_diffuse.png
+  artifactKey: Guid(634b51e6e4770d54baa1face4a353f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human16_Shoes_diffuse.png using Guid(634b51e6e4770d54baa1face4a353f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ea34c8124438681fad6890adebb791') in 0.018787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sprite/human15_Top_diffuse.png
+  artifactKey: Guid(d52a56aba2d1d4547bfc7af0e6aa59e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human15_Top_diffuse.png using Guid(d52a56aba2d1d4547bfc7af0e6aa59e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a505e5f323cd1e5603810de256eb650') in 0.020781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprite/human15_Hat_diffuse.png
+  artifactKey: Guid(7c6fadd434dcb034b822dbcb384a97c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human15_Hat_diffuse.png using Guid(7c6fadd434dcb034b822dbcb384a97c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc04bcfe37f80984bdcbdf16c3bc864') in 0.019565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/human20_Body_diffuse.png
+  artifactKey: Guid(f5a4a6696026aca46ba98eedf04e737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human20_Body_diffuse.png using Guid(f5a4a6696026aca46ba98eedf04e737e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fc2f94948c055da7ef2acc316b9e53') in 0.023296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/human20_Top_diffuse.png
+  artifactKey: Guid(7b1d2c646bf127943ab0bee193a90efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human20_Top_diffuse.png using Guid(7b1d2c646bf127943ab0bee193a90efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95551764ee92403121ec959c9e6f0ef') in 0.021382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/human17_Body_diffuse.png
+  artifactKey: Guid(e2dff5eefca834543a76d560b7420e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human17_Body_diffuse.png using Guid(e2dff5eefca834543a76d560b7420e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c8e7c549743d29cf57d8a51a7c855e') in 0.021684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprite/human_Shoes_diffuse.png
+  artifactKey: Guid(f816738888e620940a41851276732afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human_Shoes_diffuse.png using Guid(f816738888e620940a41851276732afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e8be53da3f4de5722c57b477becfb1') in 0.021328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprite/human_Top_diffuse.png
+  artifactKey: Guid(9da805a3056ce984eb8660926b8137a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human_Top_diffuse.png using Guid(9da805a3056ce984eb8660926b8137a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8192eea76625ec4337a264328a86b8') in 0.021596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprite/human20_Shoes_diffuse.png
+  artifactKey: Guid(ad6309fd72992454fa389cb1acd34595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human20_Shoes_diffuse.png using Guid(ad6309fd72992454fa389cb1acd34595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671056f236cddedd88c7d0dfa92fdb3d') in 0.023644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprite/Man_Bottom_diffuse.png
+  artifactKey: Guid(441a454ce697dae42baa2e8090292535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Man_Bottom_diffuse.png using Guid(441a454ce697dae42baa2e8090292535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d7d9c8c70a4cc93f08adfda0ad905a') in 0.024404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite/human19_Body_diffuse.png
+  artifactKey: Guid(f8619e0f0ff66764bac703d2a44a78e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human19_Body_diffuse.png using Guid(f8619e0f0ff66764bac703d2a44a78e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d609d0b31b1666ac8c37a6081c1e8d') in 0.022824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprite/Man_Body_diffuse.png
+  artifactKey: Guid(f7b5cff596adfbd4a9d7901bc9d9a8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Man_Body_diffuse.png using Guid(f7b5cff596adfbd4a9d7901bc9d9a8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8d05fdb12433beb3dc1b561171961c') in 0.022438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprite/human18_Shoes_diffuse.png
+  artifactKey: Guid(5687291ad475c734d94810f39abf70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/human18_Shoes_diffuse.png using Guid(5687291ad475c734d94810f39abf70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7a65f7bd371abcd63dbafc795730e1') in 0.021940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.242621 seconds.
+  path: Assets/Sprite/Man_Eyewear_diffuse.png
+  artifactKey: Guid(6373e0fd4ecabb34f8bdce640d95ac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Man_Eyewear_diffuse.png using Guid(6373e0fd4ecabb34f8bdce640d95ac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3dc41fbebba9cfc053699930b7cc97') in 0.019651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprite/Man_Shoes_diffuse.png
+  artifactKey: Guid(da97f16672cde374885335648f848ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Man_Shoes_diffuse.png using Guid(da97f16672cde374885335648f848ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5407e5dc86992973b3e1bd55a620b4c') in 0.024874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/Man_Moustache_diffuse.png
+  artifactKey: Guid(61a8650e4929357468c0dad1b0e66e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Man_Moustache_diffuse.png using Guid(61a8650e4929357468c0dad1b0e66e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a429869c58b0edcdbbb20934ecb23655') in 0.023653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite/RoundTable_RoundTable-material_AlbedoTransparency.png
+  artifactKey: Guid(3a4cb20a8579d7b4ebdbf155c2492c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/RoundTable_RoundTable-material_AlbedoTransparency.png using Guid(3a4cb20a8579d7b4ebdbf155c2492c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626832813415b44b0a5cea04b1ff6efe') in 0.030614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprite/Stonetile.png
+  artifactKey: Guid(2bcfa81696b27594ca7d81eb6449052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Stonetile.png using Guid(2bcfa81696b27594ca7d81eb6449052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2571816be09871a826fdddb251b4a4b') in 0.033013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprite/Wood_Planks_basecolor.png
+  artifactKey: Guid(1d5b21d07413d8f4f8b54302e0dc545b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Wood_Planks_basecolor.png using Guid(1d5b21d07413d8f4f8b54302e0dc545b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29021f494762f4a53c353ac6ede7314c') in 0.027522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprite/Texture.png
+  artifactKey: Guid(9a1a78cd418cf1747abdb83401565c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Texture.png using Guid(9a1a78cd418cf1747abdb83401565c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7390a2a283957c32a796402f00ffbe82') in 0.029789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sprite/Security_Body_diffuse.png
+  artifactKey: Guid(25b3796bd3ebd55449697fb28ffa131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Security_Body_diffuse.png using Guid(25b3796bd3ebd55449697fb28ffa131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e3f6dac11a635c2a9f330c963b767e') in 0.028639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprite/T_Herringbone _Dark_Albedo.png
+  artifactKey: Guid(8bf24b75e3e7d8c4e87a09c24ba4f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/T_Herringbone _Dark_Albedo.png using Guid(8bf24b75e3e7d8c4e87a09c24ba4f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c4f2ca66cbd7f6880cf87fdb8e052') in 0.029390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprite/WoodenStoolBacked_WoodenStoolBacked_Wood-material_AlbedoTransparency.png
+  artifactKey: Guid(c82c267701ec5c74cbe3ec39f2e84013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/WoodenStoolBacked_WoodenStoolBacked_Wood-material_AlbedoTransparency.png using Guid(c82c267701ec5c74cbe3ec39f2e84013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321e6f8b7b1fa10fcf4d8646a5d48416') in 0.028704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/Security_Bottom_diffuse.png
+  artifactKey: Guid(e41518ca768d8324388b9bcee44f8167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Security_Bottom_diffuse.png using Guid(e41518ca768d8324388b9bcee44f8167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da8f35083e4a62efef5f211a17c21d0') in 0.022683 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -2705,6 +2705,7 @@ GameObject:
   - component: {fileID: 2860060666135131063}
   - component: {fileID: 18709495312329256}
   - component: {fileID: 3155473239483228089}
+  - component: {fileID: -8657927363958285551}
   m_Layer: 0
   m_Name: human8
   m_TagString: Buyer
@@ -2824,6 +2825,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 0}
+--- !u!195 &-8657927363958285551
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7556302375564374918}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &7670307266746214306
 GameObject:
   m_ObjectHideFlags: 0
